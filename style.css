@@ -1,0 +1,54 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  
+  .memo-container {
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #memo-input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  #add-memo {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #add-memo:hover {
+    background-color: #0056b3;
+  }
+  
+  #memo-display {
+    margin-top: 20px;
+  }
+  
+  .memo {
+    background-color: #f9f9f9;
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
